@@ -71,7 +71,7 @@ figcaption {
 article {
 	padding:5px;
 	overflow:hidden;
-	border: solid 4px black;
+	border: double 4px black;
 }
 aside {
 	border: solid 5px black;
