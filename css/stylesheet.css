@@ -85,9 +85,7 @@ aside {
 	padding: 5px;
 	font-size: 1.5em;
 }
-.imagesProduct > aside img {
-	max-width:33%;
-}
+
 	
 
 	
@@ -177,20 +175,25 @@ aside {
 
 	}
 	.imageOne {
-		grid-area: gridOne / gridOne / gridFour / gridFour;
+		width:33%;
+		height:40%;
+		grid-area: gridOne;
 	}
 	.imageTwo {
-		grid-area: gridTwo / gridTwo / gridFive / gridFive;
+		width:33%;
+		height:40%;
+		grid-area: gridTwo;
 	}
 	.imageThree {
-		grid-area: gridThree / gridThree / gridSix / gridSix;
+		width:33%;
+		height:40%;
+		grid-area: gridThree;
 	}
 	.imagesProduct {
 		display:grid;
 		grid-template:
 		[row1-start]"gridOne gridTwo gridThree"25% [row1-end]
-		[row2-start"gridFour gridFive gridSix"25%[row2-end]
-		/20% 20% 20%;
+		/33% 33% 33%;
 }
 
 
