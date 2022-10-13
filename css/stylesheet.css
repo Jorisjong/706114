@@ -178,25 +178,24 @@ aside {
 		/ 40% 35% 25%;
 
 	}
+	.imagesProduct img {
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+	}
 	.imageOne {
-		width:40%;
-		height:40%;
 		grid-area: gridOne;
 	}
 	.imageTwo {
-		width:35%;
-		height:40%;
 		grid-area: gridTwo;
 	}
 	.imageThree {
-		width:25%;
-		height:40%;
 		grid-area: gridThree;
 	}
 	.imagesProduct {
 		display:grid;
 		grid-template:
-		[row1-start]"gridOne gridTwo gridThree"40% [row1-end]
+		[row1-start]"gridOne gridTwo gridThree"100% [row1-end]
 		/40% 35% 25%;
 	}
 }
