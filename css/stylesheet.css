@@ -89,7 +89,7 @@ aside {
 		display:flex;
 		flex-flow:column nowrap;
 	}
-	#hamnav {
+	#hamburgerNav {
 		display: none;
 	}
 	.headerWrapper {
@@ -134,7 +134,7 @@ aside {
 		display:flex;
 		flex-flow:column nowrap;
 	}
-	#hamnav {
+	#hamburgerNav {
 		display:none;
 	}
 	.headerWrapper {
@@ -165,6 +165,9 @@ aside {
 		justify-content: center;
 		align-self: flex-end;
 	}
+	.productWrapper {
+		display:grid;
+		
 }
 
 /*layout for mobile*/
@@ -184,24 +187,24 @@ aside {
 	.wide {
 		display:none;
 	}
-	#hamnav{
+	#hamburgerNav{
 		width:25%;
 	}
-	#hamitems a {
+	#hamburgerItems a {
 		box-sizing: border-box;
 		display:block;
 		width:auto;
 	}
-	#hamnav label {
+	#hamburgerNav label {
 		display: inline-block;
 		color: black;
 		font-style:normal;
 		padding:10px;
 	}
-	#hamitems {
+	#hamburgerItems {
 		display:none;
 	}
-	#hamnav input:checked ~ #hamitems {
+	#hamburgerNav input:checked ~ #hamitems {
 		display:block;
 	}
 	.articles {
