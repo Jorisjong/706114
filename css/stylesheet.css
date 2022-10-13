@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
 
-
+/*styling*/
 body {
 	font-family: arial, helvetica, sans-serif;
 	padding: 0;
@@ -42,6 +42,12 @@ figcaption {
 	font-size:0.6em;
 	float:right;
 }
+.headerWrapper {
+	text-align:center;
+}
+.headerWrapper ul {
+	list-style-type:none;
+}
 .articles img {
 	height: 200px;
 	width: 300px;
@@ -82,7 +88,7 @@ aside {
 	
 
 	
-
+/*layouts*/
 /* layout for pc */
 @media screen and (min-width:1279px) {
 	body {
@@ -94,12 +100,26 @@ aside {
 	}
 	.headerWrapper {
 		display:flex;
-		flex-flow:column wrap;
-		justify-content:center;
+		flex-flow:column nowrap;
 	}
 	.videoWrapper {
 		display:flex;
 		justify-content:center;
+	}
+	.productWrapper {
+		display:grid;
+		grid-template-columns: [grid1] 40% [grid2] 30% [grid3] 30%;
+		grid-template-rows: 50% 50%;
+	}
+	.imagesProduct img {
+		width:450px;
+		height:400px;
+	}
+	.imagesProduct, img {
+		display:grid;
+		grid-template-columns:[img1]33% [img2] 34% [img3] 33%;
+		width:auto;
+		height:auto;
 	}
 	.articles {
 		width:70%;
