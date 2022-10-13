@@ -8,6 +8,8 @@ body {
 }
 header {
 	font-family: Notable;
+	letter-spacing:2px;
+	word-spacing:5px;
 	text-align: center;
 	background-color: #f7f5bc;
 	color: #000;
@@ -75,6 +77,8 @@ figcaption {
 	width:35%;
 }
 article {
+	line-height:110%;
+	text-indent:5px;
 	padding:5px;
 	overflow:hidden;
 	border: double 4px black;
@@ -175,25 +179,26 @@ aside {
 
 	}
 	.imageOne {
-		width:33%;
+		width:40%;
 		height:40%;
 		grid-area: gridOne;
 	}
 	.imageTwo {
-		width:33%;
+		width:35%;
 		height:40%;
 		grid-area: gridTwo;
 	}
 	.imageThree {
-		width:33%;
+		width:25%;
 		height:40%;
 		grid-area: gridThree;
 	}
 	.imagesProduct {
 		display:grid;
 		grid-template:
-		[row1-start]"gridOne gridTwo gridThree"25% [row1-end]
-		/33% 33% 33%;
+		[row1-start]"gridOne gridTwo gridThree"40% [row1-end]
+		/40% 35% 25%;
+	}
 }
 
 
@@ -240,7 +245,61 @@ aside {
 	}
 	.productWrapper {
 		display:grid;
-		
+	}
+	
+	/*layout voor product pagina*/
+	.articleOne {
+		font-size:0.8em;
+		grid-area: grid1 / grid1 / grid3 / grid3;
+	}
+	.articleTwo {
+		grid-area:grid2 / grid2 / grid6 / grid6;
+	}
+	.articleThree {
+		grid-area:grid5 / grid5 / grid11 / grid11;
+	}
+	.articleFour {
+		display:none;
+	}
+	.articleFive {
+		grid-area:grid8 / grid8 / grid12 / grid12;
+	}
+	.articleSix {
+		font-size:0.8em;
+		grid-area:grid13 / grid13 / grid16 / grid16;
+	}
+	
+	.productWrapper {
+		display:grid;
+		grid-template:
+		[row1-start] "grid1 grid2" 20% [row1-end]
+		[row2-start] "grid3 grid4" 10% [row2-end]
+		[row3-start] "grid5 grid6" 10% [row3-end]
+		[row4-start] "grid7 grid8" 20% [row4-end]
+		[row5-start] "grid9 grid10" 10% [row5-end]
+		[row6-start] "grid11 grid12" 10% [row6-end]
+		[row7-start] "grid13 grid14" 10% [row7-end]
+		[row8-start] "grid15 grid16" 10% [row8-end]
+		/ 50% 50%;
+	}
+	}
+	.imageOne {
+		width:50%;
+		grid-area: gridOne;
+	}
+	.imageTwo {
+		width:50%;
+		grid-area: gridTwo;
+	}
+	.imageThree {
+		display:none;
+	}
+	.imagesProduct {
+		display:grid;
+		grid-template:
+		[row1-start]"gridOne gridTwo gridThree"25% [row1-end]
+		/50% 50%;
+	}
 }
 
 /*layout for mobile*/
@@ -314,5 +373,61 @@ aside {
 		width: 20%;
 		justify-content: center;
 		align-self: flex-start;
+	}
+	
+	/*layout voor product pagina*/
+	.articleOne {
+		grid-area: grid1 / grid1 / grid4 / grid4;
+	}
+	.articleTwo {
+		grid-area:grid1 / grid1 / grid7 / grid7;
+	}
+	.articleThree {
+		grid-area:grid3 / grid3 / grid9 / grid9;
+	}
+	.articleFour {
+		grid-area:grid12/ grid12 / grid15 / grid15;
+	}
+	.articleFive {
+		grid-area:grid10 / grid10 / grid19 / grid19;
+	}
+	.articleSix {
+		grid-area:grid17 / grid17 / grid21 / grid21;
+	}
+	
+	.productWrapper {
+		display:grid;
+		grid-template:
+		[row1-start] "grid1 grid2" 10% [row1-end]
+		[row2-start] "grid4 grid5" 10% [row2-end]
+		[row3-start] "grid7 grid8" 10% [row3-end]
+		[row4-start] "grid10 grid11" 20% [row4-end]
+		[row5-start] "grid13 grid14" 10% [row5-end]
+		[row6-start] "grid16 grid17" 10% [row6-end]
+		[row7-start] "grid19 grid20" 10% [row7-end]
+		[row8-start] "grid19 grid20" 10% [row8-end]
+		/ 40% 35% 25%;
+
+	}
+	.imageOne {
+		width:33%;
+		height:40%;
+		grid-area: gridOne;
+	}
+	.imageTwo {
+		width:33%;
+		height:40%;
+		grid-area: gridTwo;
+	}
+	.imageThree {
+		width:33%;
+		height:40%;
+		grid-area: gridThree;
+	}
+	.imagesProduct {
+		display:grid;
+		grid-template:
+		[row1-start]"gridOne gridTwo gridThree"25% [row1-end]
+		/33% 33% 33%;
 	}
 }
