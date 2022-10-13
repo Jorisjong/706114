@@ -106,11 +106,6 @@ aside {
 		display:flex;
 		justify-content:center;
 	}
-	.productWrapper {
-		display:grid;
-		grid-template-columns: [grid1] 40% [grid2] 30% [grid3] 30%;
-		grid-template-rows: 50% 50%;
-	}
 	.imagesProduct img {
 		width:450px;
 		height:400px;
@@ -144,6 +139,12 @@ aside {
 		width: 20%;
 		justify-content: center;
 		align-self: flex-end;
+	}
+	/*layout voor product pagina*/
+	.productWrapper {
+		display:grid;
+		grid-template-columns: [grid1] 40% [grid2] 30% [grid3] 30%;
+		grid-template-rows: 50% 50%;
 	}
 }
 
