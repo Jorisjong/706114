@@ -149,6 +149,10 @@ aside {
 	aside {
 		width:auto;
 	}
+	.articles {
+		display:flex;
+		flex-flow:column-reverse nowrap;
+	}
 	.footerWrapper {
 		display: flex;
 		flex-flow: row nowrap;
@@ -208,7 +212,9 @@ aside {
 		display:block;
 	}
 	.articles {
-		font-size:0.8em;
+		display:flex;
+		flex-flow:column-reverse nowrap;
+		font-size:0.8em;	
 	}
 	figcaption {
 		font-size:0.8em;
