@@ -1,2 +1,4 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+Student name: Joris Jongejans
+Student number: 706114
+Student class: inf1C
+URL student Github repository:
