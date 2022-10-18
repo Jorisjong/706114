@@ -62,6 +62,9 @@ figcaption {
 	width: 300px;
 	float:right;
 }
+.articles {
+	text-align:left;
+}
 .copyrightWrapper {
 	color: #000;
 	background-color: #f7f5bc;
@@ -137,12 +140,12 @@ textarea {
 		display:flex;
 		justify-content:center;
 	}
-	.articles {
-		width:70%;
-	}
 	.mainWrapper {
 		display:flex;
 		flex-flow:row-reverse nowrap;
+	}
+	.articles {
+		width:70%;
 	}
 	aside {
 		height: 97%;
