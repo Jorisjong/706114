@@ -33,6 +33,19 @@ figure {
 ul li {
 	padding: 0.3em;
 }
+table, th {
+	font-style:bold;
+	border:solid 2px black;
+	padding:0.3em;
+}
+table, td {
+	text-align:center;
+	border:dashed 2px yellow;
+}
+table {
+	border:double 5px black;
+	width:100%;
+}
 figcaption {
 	font-size:0.6em;
 	float:right;
