@@ -14,31 +14,24 @@ header {
 	background-color: #f7f5bc;
 	color: #000;
 }
+#hamburgerNav a#active{
+	background-color:rgb(137,122,39);
+	color:#000;
+	}
+#hamburgerNav a:hover {
+	background-color:#F6EB61;
+	color:#000;
+	}
+figure {
+	margin-left:auto;
+	margin-right:auto;
+	width:4%;
+}
 #logo {
 	width:3em;
 }
 ul li {
 	padding: 0.3em;
-}
-nav {
-	overflow: hidden;
-	background-color: rgb(255,199,44);
-}
-nav a {
-	background-color:rgb(255,199,44);
-	color:#000;
-	text-align:center;
-	font-size:1em;
-	text-decoration:none;
-	padding: 0.3em;
-}
-nav a#active{
-	background-color:rgb(137,122,39);
-	color:#000;
-}
-nav a:hover {
-	background-color:#F6EB61;
-	color:#000;
 }
 figcaption {
 	font-size:0.6em;
@@ -101,6 +94,18 @@ aside {
 		flex-flow:column nowrap;
 	}
 	#hamburgerNav {
+	overflow: hidden;
+	background-color: rgb(255,199,44);
+	}
+	#hamburgerNav a{
+	background-color:rgb(255,199,44);
+	color:#000;
+	text-align:center;
+	font-size:1em;
+	text-decoration:none;
+	padding: 0.3em;
+	}
+	#hamburgernav label, #hamburger {
 		display: none;
 	}
 	.headerWrapper {
@@ -145,6 +150,7 @@ aside {
 		justify-content: center;
 		align-self: flex-end;
 	}
+	
 	/*layout voor product pagina*/
 	.articleOne {
 		grid-area: grid2 / grid2 / grid14 / grid14;
@@ -178,6 +184,10 @@ aside {
 		/ 40% 35% 25%;
 
 	}
+	.imagesProduct {
+		width:auto;
+		height:400px;
+	}
 	.imagesProduct img {
 		width: 100%;
 		height: 100%;
@@ -202,13 +212,25 @@ aside {
 
 
 /*layout for tablet */
-@media all and (min-width:482px) and (max-width:1179px) {
+@media all and (min-width:482px) and (max-width:1279px) {
 	body {
 		display:flex;
 		flex-flow:column nowrap;
 	}
 	#hamburgerNav {
-		display:none;
+	overflow: hidden;
+	background-color: rgb(255,199,44);
+	}
+	#hamburgerNav a{
+	background-color:rgb(255,199,44);
+	color:#000;
+	text-align:center;
+	font-size:1em;
+	text-decoration:none;
+	padding: 0.3em;
+	}
+	#hamburgernav label, #hamburger {
+		display: none;
 	}
 	.headerWrapper {
 		display: flex;
@@ -281,6 +303,12 @@ aside {
 		[row8-start] "grid15 grid16" 10% [row8-end]
 		/ 50% 50%;
 	}
+	
+	/*images*/
+	.imagesProduct {
+		width:auto%;
+		height:450px;
+	}
 	.imagesProduct img {
 		width: 100%;
 		height: auto;
@@ -298,7 +326,7 @@ aside {
 	.imagesProduct {
 		display:grid;
 		grid-template:
-		[row1-start]"gridOne gridTwo gridThree"25% [row1-end]
+		[row1-start]"gridOne gridTwo gridThree"100% [row1-end]
 		/50% 50%;
 	}
 }
@@ -317,27 +345,30 @@ aside {
 	header {
 		width:100%;
 	}
-	.wide {
-		display:none;
+	#hamburgerNav {
+		background-color: rgb(255,199,44);
 	}
-	#hamburgerNav{
-		width:25%;
+	#hamburgerNav a{
+		background-color:rgb(255,199,44);
+		color:#000;
+		font-size:0.8em;
+		text-decoration:none;
+		padding:0.5em;
 	}
-	#hamburgerItems a {
-		box-sizing: border-box;
+	#hamburgerItems {
+		box-sizing:border-box;
 		display:block;
-		width:auto;
+		width:30%;
 	}
 	#hamburgerNav label {
-		display: inline-block;
-		color: black;
-		font-style:normal;
+		display:inline-block;
+		color:black;
 		padding:10px;
 	}
 	#hamburgerItems {
 		display:none;
 	}
-	#hamburgerNav input:checked ~ #hamitems {
+	#hamburgerNav input:checked ~ #hamburgerItems {
 		display:block;
 	}
 	.articles {
@@ -399,20 +430,24 @@ aside {
 	.productWrapper {
 		display:grid;
 		grid-template:
-		[row1-start] "grid1 grid2" 10% [row1-end]
+		[row1-start] "grid1 grid2" 15% [row1-end]
 		[row2-start] "grid4 grid5" 10% [row2-end]
-		[row3-start] "grid7 grid8" 10% [row3-end]
-		[row4-start] "grid10 grid11" 20% [row4-end]
-		[row5-start] "grid13 grid14" 10% [row5-end]
+		[row3-start] "grid7 grid8" 13% [row3-end]
+		[row4-start] "grid10 grid11" 10% [row4-end]
+		[row5-start] "grid13 grid14" 15% [row5-end]
 		[row6-start] "grid16 grid17" 10% [row6-end]
-		[row7-start] "grid19 grid20" 10% [row7-end]
-		[row8-start] "grid21 grid22" 10% [row8-end]
+		[row7-start] "grid19 grid20" 15% [row7-end]
+		[row8-start] "grid21 grid22" 12% [row8-end]
 		/ 50% 50%;
 
 	}
+	.imagesProduct {
+		width:auto;
+		height:750px;
+	}
 	.imagesProduct img {
 		width: 100%;
-		height: auto;
+		height: 250px;
 		object-fit: cover;
 	}
 	.imageOne {
@@ -430,7 +465,7 @@ aside {
 		[row1-start]"gridOne"33% [row1-end]
 		[row2-start]"gridTwo"33% [row2-end]
 		[row3-start]"gridThree"33% [row3-end]
-		/50% 50%;
+		/100%;
 	}
 	
 }
