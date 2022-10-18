@@ -221,6 +221,40 @@ aside {
 		[row1-start]"gridOne gridTwo gridThree"100% [row1-end]
 		/40% 35% 25%;
 	}
+	
+	/* layout voor pricing */
+	.pricing {
+		display:grid;
+		height:700px;
+		width:auto;
+		grid-template:
+		[row1-start]"grid1 grid2 grid3" 30%[row1-end]
+		[row2-start]"grid4 grid5 grid6" 20%[row2-end]
+		[row3-start]"grid7 grid8 grid9" 20%[row3-end]
+		[row4-start]"grid10 grid11 grid12" 20%[row4-end]
+		[row5-start]"grid13 grid14 grid15" 10%[row5-end]
+		/40% 25% 35%;
+	}
+	.articleInnovation {
+		grid-area:grid1 / grid1 / grid3 / grid3;
+	}
+	.Pricingtable {
+		grid-area:grid4 / grid4 / grid11 / grid11;
+	}
+	.tableCopyright {
+		grid-area:grid13 / grid13 / grid 14 / grid14;
+	}
+	.imagesPricing img {
+		width:auto;
+		margin-left:auto;
+		margin-right:auto;
+		height:33%;
+	}
+	.imagesPricing {
+		height:auto;
+		grid-area:grid6 / grid6 / grid12 / grid12;
+	}
+		
 }
 
 
@@ -341,6 +375,48 @@ aside {
 		grid-template:
 		[row1-start]"gridOne gridTwo gridThree"100% [row1-end]
 		/50% 50%;
+	}
+	
+	/* layout voor pricing */
+	.pricing {
+		display:grid;
+		height:700px;
+		width:auto;
+		grid-template:
+		[row1-start]"grid1 grid2 grid3" 30%[row1-end]
+		[row2-start]"grid4 grid5 grid6" 20%[row2-end]
+		[row3-start]"grid7 grid8 grid9" 20%[row3-end]
+		[row4-start]"grid10 grid11 grid12" 10%[row4-end]
+		[row5-start]"grid13 grid14 grid15" 20%[row5-end]
+		/50% 25% 25%;
+	}
+	.articleInnovation {
+		grid-area:grid1 / grid1 / grid3 / grid3;
+	}
+	.Pricingtable {
+		grid-area:grid4 / grid4 / grid9 / grid9;
+	}
+	.tableCopyright {
+		grid-area:grid10 / grid10 / grid12 / grid12;
+	}
+	.imagesPricing img {
+		width:20%;
+		height:100%;
+		float:left;
+	}
+	.imageTwoPricing {
+		grid-area: grid13;
+	}
+	.imageThreePricing {
+		grid-area: grid15;
+	}
+	.imageOnePricing {
+		display:none;
+	}
+	.imagesPricing {
+		grid-area:grid13 / grid13/ grid15 / grid15;
+		height:auto;
+		width:auto;
 	}
 }
 
@@ -481,4 +557,34 @@ aside {
 		/100%;
 	}
 	
+	/* layout voor pricing */
+	.pricing {
+		display:grid;
+		height:700px;
+		width:auto;
+		grid-template:
+		[row1-start]"grid1 grid2 grid3" 30%[row1-end]
+		[row2-start]"grid4 grid5 grid6" 20%[row2-end]
+		[row3-start]"grid7 grid8 grid9" 10%[row3-end]
+		[row4-start]"grid10 grid11 grid12" 20%[row4-end]
+		[row5-start]"grid13 grid14 grid15" 20%[row5-end]
+		/40% 25% 35%;
+	}
+	.articleInnovation {
+		display:none;
+	}
+	.Pricingtable {
+		grid-area:grid1 / grid1 / grid6 / grid6;
+	}
+	.tableCopyright {
+		grid-area:grid7/ grid7 / grid9 / grid9;
+	}
+	.imagesPricing img {
+		width:25%;
+		height:33%;
+	}
+	.imagesPricing {
+		height:auto;
+		grid-area:grid10 / grid10 / grid15 / grid15;
+	}
 }
