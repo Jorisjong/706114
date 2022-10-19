@@ -12,12 +12,16 @@ header {
 	word-spacing:5px;
 	text-align: center;
 	background-color: #f7f5bc;
-	color: #000;
+	color: #565656;
 }
-#hamburgerNav a#active{
+#hamburgerNav a#home:active,#hamburgerNav a#product:active,#hamburgerNav a#pricing:active,#hamburgerNav a#contact:active {
 	background-color:rgb(137,122,39);
 	color:#000;
 	}
+#hamburgerNav a#active {
+	background-color:rgb(137,122,39);
+	color:#000;
+}
 #hamburgerNav a:hover {
 	background-color:#F6EB61;
 	color:#000;
@@ -39,7 +43,7 @@ table, th {
 }
 table, td {
 	text-align:center;
-	border:dashed 2px yellow;
+	border:dashed 2px #FFFF00;
 }
 table {
 	border:double 5px black;
@@ -97,7 +101,7 @@ aside {
 	font-size: 1.5em;
 }
 input[type=text], [type=email], textarea {
-	width:100%;
+	width:97%;
 	padding:8px;
 	margin:8px;
 }
@@ -271,11 +275,11 @@ textarea {
 		height:700px;
 		width:auto;
 		grid-template:
-		[row1-start]"grid1 grid2 grid3" 30%[row1-end]
+		[row1-start]"grid1 grid2 grid3" 20%[row1-end]
 		[row2-start]"grid4 grid5 grid6" 20%[row2-end]
 		[row3-start]"grid7 grid8 grid9" 20%[row3-end]
 		[row4-start]"grid10 grid11 grid12" 20%[row4-end]
-		[row5-start]"grid13 grid14 grid15" 10%[row5-end]
+		[row5-start]"grid13 grid14 grid15" 20%[row5-end]
 		/40% 25% 35%;
 	}
 	.contactWelcome {
@@ -283,6 +287,7 @@ textarea {
 	}
 	.contactForm {
 		height:auto;
+		width:auto;
 		grid-area:grid4 / grid4 / grid14 / grid14;
 	}
 	.contactForm, fieldset {
@@ -291,7 +296,7 @@ textarea {
 	.imagesContact img {
 		margin-left:auto;
 		margin-right:auto;
-		height:33%;
+		height:175px;
 		width:auto;
 	}
 	.imagesContact {
@@ -491,9 +496,9 @@ textarea {
 		height:auto;
 	}
 	.imagesContact img {
-		margin-left:auto;
+		margin-left:20%;
 		margin-right:auto;
-		height:33%;
+		height:175px;
 		width:auto;
 	}
 	.imagesContact {
@@ -689,21 +694,25 @@ textarea {
 	.contactWelcome {
 		grid-area: grid1/ grid1/ grid3/ grid3;
 	}
+	input[type=text], [type=email], textarea {
+		margin:3px;
+		width:96%;
+	}
 	.contactForm {
 		height:auto;
 		grid-area:grid4 / grid4 / grid9 / grid9;
+	}
+	.imagesContact {
+		height:auto;
+		grid-area:grid10 / grid10 / grid15 / grid15;
 	}
 	.contactForm, fieldset {
 		height:auto;
 	}
 	.imagesContact img {
-		margin-left:33%;
-		margin-right:33%;
-		height:33%;
+		margin-left:35%;
+		margin-right:auto;
+		height:120px;
 		width:auto;
-	}
-	.imagesContact {
-		height:auto;
-		grid-area:grid10 / grid10 / grid15 / grid15;
 	}
 }
