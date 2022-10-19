@@ -43,7 +43,6 @@ table, td {
 }
 table {
 	border:double 5px black;
-	width:100%;
 }
 .headerWrapper {
 	text-align:center;
@@ -237,8 +236,8 @@ textarea {
 		height:700px;
 		width:auto;
 		grid-template:
-		[row1-start]"grid1 grid2 grid3" 30%[row1-end]
-		[row2-start]"grid4 grid5 grid6" 20%[row2-end]
+		[row1-start]"grid1 grid2 grid3" 20%[row1-end]
+		[row2-start]"grid4 grid5 grid6" 30%[row2-end]
 		[row3-start]"grid7 grid8 grid9" 20%[row3-end]
 		[row4-start]"grid10 grid11 grid12" 20%[row4-end]
 		[row5-start]"grid13 grid14 grid15" 10%[row5-end]
@@ -253,15 +252,17 @@ textarea {
 	.tableCopyright {
 		grid-area:grid13 / grid13 / grid 14 / grid14;
 	}
+	.imagesPricing {
+		grid-area:grid6 / grid6 / grid12 / grid12;
+	}
 	.imagesPricing img {
 		width:auto;
+		height:150px;
 		margin-left:auto;
 		margin-right:auto;
-		height:33%;
 	}
-	.imagesPricing {
-		height:auto;
-		grid-area:grid6 / grid6 / grid12 / grid12;
+	.Pricingtable, table {
+		width:163%;
 	}
 	
 	/*For Contact page*/
@@ -270,11 +271,11 @@ textarea {
 		height:700px;
 		width:auto;
 		grid-template:
-		[row1-start]"grid1 grid2 grid3" 20%[row1-end]
+		[row1-start]"grid1 grid2 grid3" 30%[row1-end]
 		[row2-start]"grid4 grid5 grid6" 20%[row2-end]
 		[row3-start]"grid7 grid8 grid9" 20%[row3-end]
 		[row4-start]"grid10 grid11 grid12" 20%[row4-end]
-		[row5-start]"grid13 grid14 grid15" 20%[row5-end]
+		[row5-start]"grid13 grid14 grid15" 10%[row5-end]
 		/40% 25% 35%;
 	}
 	.contactWelcome {
@@ -427,9 +428,9 @@ textarea {
 		grid-template:
 		[row1-start]"grid1 grid2 grid3" 30%[row1-end]
 		[row2-start]"grid4 grid5 grid6" 20%[row2-end]
-		[row3-start]"grid7 grid8 grid9" 20%[row3-end]
-		[row4-start]"grid10 grid11 grid12" 10%[row4-end]
-		[row5-start]"grid13 grid14 grid15" 20%[row5-end]
+		[row3-start]"grid7 grid8 grid9" 15%[row3-end]
+		[row4-start]"grid10 grid11 grid12" 5%[row4-end]
+		[row5-start]"grid13 grid14 grid15" 30%[row5-end]
 		/50% 25% 25%;
 	}
 	.articleInnovation {
@@ -438,12 +439,15 @@ textarea {
 	.Pricingtable {
 		grid-area:grid4 / grid4 / grid9 / grid9;
 	}
+	.Pricingtable, table {
+		height:150%;
+	}
 	.tableCopyright {
 		grid-area:grid10 / grid10 / grid12 / grid12;
 	}
 	.imagesPricing img {
-		width:20%;
-		height:100%;
+		width:15%;
+		height:auto;
 		float:left;
 	}
 	.imageTwoPricing {
@@ -459,6 +463,9 @@ textarea {
 		grid-area:grid13 / grid13/ grid15 / grid15;
 		height:auto;
 		width:auto;
+	}
+	.Pricingtable, table {
+		width:100%;
 	}
 	/*For Contact page*/
 	.contact {
@@ -656,8 +663,10 @@ textarea {
 		grid-area:grid7/ grid7 / grid9 / grid9;
 	}
 	.imagesPricing img {
-		width:25%;
-		height:33%;
+		width:100px;
+		height:75px;
+		margin-left:30%;
+		margin-right:40%;
 	}
 	.imagesPricing {
 		height:auto;
