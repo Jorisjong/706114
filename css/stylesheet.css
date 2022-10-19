@@ -22,12 +22,10 @@ header {
 	background-color:#F6EB61;
 	color:#000;
 	}
-figure {
+#logo {
 	margin-left:auto;
 	margin-right:auto;
 	width:4%;
-}
-#logo {
 	width:50px;
 	height:50px;
 }
