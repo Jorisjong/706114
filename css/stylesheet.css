@@ -18,7 +18,7 @@ header {
 	background-color:rgb(137,122,39);
 	color:#000;
 	}
-#hamburgerNav a#active {
+#hamburgerNav a.active {
 	background-color:rgb(137,122,39);
 	color:#000;
 }
@@ -78,6 +78,7 @@ figcaption {
 	border:solid 2px black;
 	text-align:center;
 	position:fixed;
+	z-index:9999;
 }
 .videoWrapper {
 	display: flex;
