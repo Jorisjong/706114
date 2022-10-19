@@ -33,7 +33,7 @@ ul li {
 	padding: 0.3em;
 }
 table, th {
-	font-style:bold;
+	font-weight:bold;
 	border:solid 2px black;
 	padding:0.3em;
 }
