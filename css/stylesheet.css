@@ -151,17 +151,24 @@ textarea {
 		display:flex;
 		justify-content:center;
 	}
-	.mainWrapper {
-		display:flex;
-		flex-direction:row-reverse;
-		justify-content:space-around;
-		height:80%;
-	}
 	.articles {
 		width:70%;
 	}
 	.side {
 		width:28%;
+	}
+	.mainWrapper {
+		display:flex;
+		flex-flow:row-reverse nowrap;
+		height:80%;
+	}
+	.articles {
+		width:70%;
+		height:100%;
+	}
+	aside {
+		width:28%;
+		height:100%;
 	}
 	.footerWrapper {
 		height:5px;
