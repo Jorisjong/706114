@@ -11,6 +11,7 @@ header {
 	letter-spacing:2px;
 	word-spacing:5px;
 	text-align: center;
+	padding:0.1em;
 	background-color: #f7f5bc;
 	color: #565656;
 }
@@ -36,6 +37,10 @@ header {
 ul li {
 	padding: 0.3em;
 }
+.articleInnovation {
+	font-size: 0.9em;
+}
+
 table, th {
 	font-weight:bold;
 	border:solid 2px black;
@@ -70,13 +75,17 @@ figcaption {
 	color: #000;
 	background-color: #f7f5bc;
 	text-align: center;
+	height:10%;
 }
 .cookiesWrapper {
 	color:#FFF;
 	background-color:#FA0;
 	opacity:0.5;
-	border:solid 2px black;
+	border:solid 1px black;
 	text-align:center;
+	width:auto;
+	bottom:0;
+	right:0;
 	position:fixed;
 	z-index:9999;
 }
@@ -96,7 +105,7 @@ article {
 	border: double 4px black;
 }
 aside {
-	border: solid 5px black;
+	border: solid 4px black;
 	color: #1b8839;
 	padding: 5px;
 	font-size: 1.5em;
@@ -145,26 +154,19 @@ textarea {
 	.mainWrapper {
 		display:flex;
 		flex-flow:row-reverse nowrap;
+		height:70%;
 	}
 	.articles {
 		width:70%;
 	}
 	aside {
-		height: 97%;
+		height: 98.1%;
 	}
 	.footerWrapper {
+		height:5px;
 		display:flex;
 		flex-flow:row nowrap;
 		overflow:hidden;
-	}
-	.copyrightWrapper {
-		width:100%;
-		justify-content:center;
-	}
-	.cookiesWrapper {
-		width: 20%;
-		justify-content: center;
-		align-self: flex-end;
 	}
 	
 	/*layout voor product pagina*/
@@ -239,7 +241,7 @@ textarea {
 	.pricing {
 		display:grid;
 		height:700px;
-		width:auto;
+		width:100%;
 		grid-template:
 		[row1-start]"grid1 grid2 grid3" 20%[row1-end]
 		[row2-start]"grid4 grid5 grid6" 30%[row2-end]
@@ -252,6 +254,7 @@ textarea {
 		grid-area:grid1 / grid1 / grid3 / grid3;
 	}
 	.Pricingtable {
+		width:100%;
 		grid-area:grid4 / grid4 / grid11 / grid11;
 	}
 	.tableCopyright {
@@ -265,9 +268,6 @@ textarea {
 		height:150px;
 		margin-left:auto;
 		margin-right:auto;
-	}
-	.Pricingtable, table {
-		width:163%;
 	}
 	
 	/*For Contact page*/
@@ -344,27 +344,11 @@ textarea {
 		display:flex;
 		flex-flow:column-reverse nowrap;
 	}
-	.footerWrapper {
-		display: flex;
-		flex-flow: row nowrap;
-		overflow: hidden;
-	}
-
-	.copyrightWrapper {
-		width: 100%;
-		justify-content: center;
-	}
-
-	.cookiesWrapper {
-		width: 20%;
-		justify-content: center;
-		align-self: flex-end;
-	}
+	
+	/*layout voor product pagina*/
 	.productWrapper {
 		display:grid;
 	}
-	
-	/*layout voor product pagina*/
 	.articleOne {
 		font-size:0.8em;
 		grid-area: grid1 / grid1 / grid3 / grid3;
@@ -430,23 +414,23 @@ textarea {
 	.pricing {
 		display:grid;
 		height:700px;
-		width:auto;
+		width:100%;
 		grid-template:
 		[row1-start]"grid1 grid2 grid3" 30%[row1-end]
 		[row2-start]"grid4 grid5 grid6" 20%[row2-end]
 		[row3-start]"grid7 grid8 grid9" 15%[row3-end]
-		[row4-start]"grid10 grid11 grid12" 5%[row4-end]
-		[row5-start]"grid13 grid14 grid15" 30%[row5-end]
+		[row4-start]"grid10 grid11 grid12" 15%[row4-end]
+		[row5-start]"grid13 grid14 grid15" 20%[row5-end]
 		/50% 25% 25%;
 	}
 	.articleInnovation {
 		grid-area:grid1 / grid1 / grid3 / grid3;
 	}
+	.pricingtable table {
+		width:150%
+	}
 	.Pricingtable {
 		grid-area:grid4 / grid4 / grid9 / grid9;
-	}
-	.Pricingtable, table {
-		height:150%;
 	}
 	.tableCopyright {
 		grid-area:grid10 / grid10 / grid12 / grid12;
@@ -567,24 +551,9 @@ textarea {
 	video {
 		display:none;
 	}
-	.footerWrapper {
-		display: flex;
-		flex-flow: row nowrap;
-		overflow: hidden;
-	}
-
 	.copyrightWrapper {
-		font-size:0.5em;
-		width: 100%;
-		justify-content: center;
+		text-align:left;
 	}
-
-	.cookiesWrapper {
-		width: 20%;
-		justify-content: center;
-		align-self: flex-start;
-	}
-	
 	/*layout voor product pagina*/
 	.articleOne {
 		grid-area:grid19 / grid19 / grid22 / grid22;
