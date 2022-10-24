@@ -153,14 +153,15 @@ textarea {
 	}
 	.mainWrapper {
 		display:flex;
-		flex-flow:row-reverse nowrap;
-		height:70%;
+		flex-direction:row-reverse;
+		justify-content:space-around;
+		height:80%;
 	}
 	.articles {
 		width:70%;
 	}
-	aside {
-		height: 98.1%;
+	.side {
+		width:28%;
 	}
 	.footerWrapper {
 		height:5px;
@@ -335,9 +336,9 @@ textarea {
 	}
 	.tabletWrapper {
 		display:flex;
-		flex-flow: column-reverse nowrap; /* stukkie wukkie? */
+		flex-direction:column-reverse;
 	}
-	aside {
+	.side {
 		width:auto;
 	}
 	.articles {
