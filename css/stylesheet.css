@@ -148,27 +148,18 @@ textarea {
 		flex-flow:column wrap;
 	}
 	.videoWrapper {
+		width:100%;
+	}
+	.mainWrapper {
 		display:flex;
-		justify-content:center;
+		flex-flow:row-reverse wrap;
+		height:80%;
 	}
 	.articles {
 		width:70%;
 	}
 	.side {
 		width:28%;
-	}
-	.mainWrapper {
-		display:flex;
-		flex-flow:row-reverse nowrap;
-		height:80%;
-	}
-	.articles {
-		width:70%;
-		height:100%;
-	}
-	aside {
-		width:28%;
-		height:100%;
 	}
 	.footerWrapper {
 		height:5px;
@@ -341,16 +332,18 @@ textarea {
 		flex-flow: column wrap;
 		justify-content: center;
 	}
-	.tabletWrapper {
+	.mainWrapper {
 		display:flex;
-		flex-direction:column-reverse;
+		flex-flow:column nowrap;
 	}
 	.side {
-		width:auto;
+		order:1;
+	}
+	.videoWrapper {
+		order:2;
 	}
 	.articles {
-		display:flex;
-		flex-flow:column-reverse nowrap;
+		order:3;
 	}
 	
 	/*layout voor product pagina*/
