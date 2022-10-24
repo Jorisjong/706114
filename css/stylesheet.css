@@ -554,6 +554,7 @@ textarea {
 	.copyrightWrapper {
 		text-align:left;
 	}
+	
 	/*layout voor product pagina*/
 	.articleOne {
 		grid-area:grid19 / grid19 / grid22 / grid22;
