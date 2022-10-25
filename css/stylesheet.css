@@ -110,10 +110,15 @@ aside {
 	padding: 5px;
 	font-size: 1.5em;
 }
+fieldset {
+	height:100%;
+	width:auto;
+}
 input[type=text], [type=email], textarea {
-	width:97%;
+	width:95%;
 	padding:8px;
 	margin:8px;
+	text-indent:5px;
 }
 textarea {
 	height:200px;
@@ -252,7 +257,7 @@ textarea {
 	.articleInnovation {
 		grid-area:grid1 / grid1 / grid3 / grid3;
 	}
-	.Pricingtable {
+	.pricingTable {
 		width:100%;
 		grid-area:grid4 / grid4 / grid11 / grid11;
 	}
@@ -272,8 +277,8 @@ textarea {
 	/*For Contact page*/
 	.contact {
 		display:grid;
-		height:700px;
-		width:auto;
+		height:80%;
+		width:100%;
 		grid-template:
 		[row1-start]"grid1 grid2 grid3" 20%[row1-end]
 		[row2-start]"grid4 grid5 grid6" 20%[row2-end]
@@ -286,17 +291,12 @@ textarea {
 		grid-area: grid1/ grid1/ grid3/ grid3;
 	}
 	.contactForm {
-		height:auto;
-		width:auto;
 		grid-area:grid4 / grid4 / grid14 / grid14;
 	}
-	.contactForm, fieldset {
-		height:auto;
-	}
 	.imagesContact img {
-		margin-left:auto;
-		margin-right:auto;
-		height:175px;
+		margin-left:30%;
+		margin-right:40%;
+		height:170px;
 		width:auto;
 	}
 	.imagesContact {
@@ -427,10 +427,8 @@ textarea {
 	.articleInnovation {
 		grid-area:grid1 / grid1 / grid3 / grid3;
 	}
-	.pricingtable table {
-		width:150%
-	}
-	.Pricingtable {
+	.pricingTable {
+		width:100%;
 		grid-area:grid4 / grid4 / grid9 / grid9;
 	}
 	.tableCopyright {
@@ -438,7 +436,7 @@ textarea {
 	}
 	.imagesPricing img {
 		width:15%;
-		height:auto;
+		height:120px;
 		float:left;
 	}
 	.imageTwoPricing {
@@ -455,9 +453,7 @@ textarea {
 		height:auto;
 		width:auto;
 	}
-	.Pricingtable, table {
-		width:100%;
-	}
+	
 	/*For Contact page*/
 	.contact {
 		display:grid;
@@ -633,9 +629,10 @@ textarea {
 	.articleInnovation {
 		display:none;
 	}
-	.Pricingtable {
+	.pricingTable {
+		width:100%;
 		grid-area:grid1 / grid1 / grid6 / grid6;
-	}
+	}	
 	.tableCopyright {
 		grid-area:grid7/ grid7 / grid9 / grid9;
 	}
