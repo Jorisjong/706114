@@ -158,7 +158,9 @@ textarea {
 	.mainWrapper {
 		display:flex;
 		flex-flow:row-reverse wrap;
+		justify-content:space-between;
 		height:80%;
+		width:100%;
 	}
 	.articles {
 		width:70%;
