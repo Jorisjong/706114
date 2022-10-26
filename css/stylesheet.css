@@ -210,11 +210,11 @@ textarea {
 		grid-template:
 		[row1-start] "grid1 grid2 grid3" 10% [row1-end]
 		[row2-start] "grid4 grid5 grid6" 10% [row2-end]
-		[row2-start] "grid7 grid8 grid9" 20% [row2-end]
-		[row2-start] "grid10 grid11 grid12" 20% [row2-end]
-		[row2-start] "grid13 grid14 grid15" 20% [row2-end]
-		[row2-start] "grid16 grid17 grid18" 10% [row2-end]
-		[row2-start] "grid19 grid20 grid21" 10% [row2-end]
+		[row3-start] "grid7 grid8 grid9" 20% [row3-end]
+		[row4-start] "grid10 grid11 grid12" 20% [row4-end]
+		[row5-start] "grid13 grid14 grid15" 20% [row5-end]
+		[row6-start] "grid16 grid17 grid18" 10% [row6-end]
+		[row7-start] "grid19 grid20 grid21" 10% [row7-end]
 		/ 40% 35% 25%;
 
 	}
