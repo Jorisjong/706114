@@ -296,6 +296,8 @@ textarea {
 		grid-area: grid1/ grid1/ grid3/ grid3;
 	}
 	.contactForm {
+		margin-top:auto;
+		margin-bottom:auto;
 		grid-area:grid4 / grid4 / grid14 / grid14;
 	}
 	.imagesContact img {
@@ -479,7 +481,8 @@ textarea {
 		grid-area: grid1/ grid1/ grid3/ grid3;
 	}
 	.contactForm {
-		height:auto;
+		margin-top:auto;
+		margin-bottom:auto;
 		grid-area:grid4 / grid4 / grid14 / grid14;
 	}
 	.contactForm, fieldset {
@@ -676,7 +679,8 @@ textarea {
 		width:96%;
 	}
 	.contactForm {
-		height:auto;
+		margin-top:auto;
+		margin-bottom:auto;
 		grid-area:grid4 / grid4 / grid9 / grid9;
 	}
 	.imagesContact {
