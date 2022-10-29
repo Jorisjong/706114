@@ -249,25 +249,24 @@ textarea {
 	/* layout voor pricing */
 	.pricing {
 		display:grid;
-		height:700px;
+		height:800px;
 		width:100%;
 		grid-template:
-		[row1-start]"grid1 grid2 grid3" 20%[row1-end]
+		[row1-start]"grid1 grid2 grid3" 25%[row1-end]
 		[row2-start]"grid4 grid5 grid6" 30%[row2-end]
 		[row3-start]"grid7 grid8 grid9" 20%[row3-end]
 		[row4-start]"grid10 grid11 grid12" 20%[row4-end]
-		[row5-start]"grid13 grid14 grid15" 10%[row5-end]
+		[row5-start]"grid13 grid14 grid15" 5%[row5-end]
 		/40% 25% 35%;
 	}
 	.articleInnovation {
 		grid-area:grid1 / grid1 / grid3 / grid3;
 	}
 	.pricingTable {
-		width:100%;
 		grid-area:grid4 / grid4 / grid11 / grid11;
 	}
 	.tableCopyright {
-		grid-area:grid13 / grid13 / grid 14 / grid14;
+		grid-area:grid13 / grid13 / grid14 / grid14;
 	}
 	.imagesPricing {
 		grid-area:grid6 / grid6 / grid12 / grid12;
@@ -424,13 +423,13 @@ textarea {
 	/* layout voor pricing */
 	.pricing {
 		display:grid;
-		height:700px;
+		height:1300px;
 		width:100%;
 		grid-template:
-		[row1-start]"grid1 grid2 grid3" 30%[row1-end]
+		[row1-start]"grid1 grid2 grid3" 20%[row1-end]
 		[row2-start]"grid4 grid5 grid6" 20%[row2-end]
-		[row3-start]"grid7 grid8 grid9" 15%[row3-end]
-		[row4-start]"grid10 grid11 grid12" 15%[row4-end]
+		[row3-start]"grid7 grid8 grid9" 35%[row3-end]
+		[row4-start]"grid10 grid11 grid12" 5%[row4-end]
 		[row5-start]"grid13 grid14 grid15" 20%[row5-end]
 		/50% 25% 25%;
 	}
@@ -438,15 +437,14 @@ textarea {
 		grid-area:grid1 / grid1 / grid3 / grid3;
 	}
 	.pricingTable {
-		width:100%;
 		grid-area:grid4 / grid4 / grid9 / grid9;
 	}
 	.tableCopyright {
 		grid-area:grid10 / grid10 / grid12 / grid12;
 	}
 	.imagesPricing img {
-		width:15%;
-		height:120px;
+		width:20%;
+		height:200x;
 		float:left;
 	}
 	.imageTwoPricing {
@@ -627,34 +625,32 @@ textarea {
 	/* layout voor pricing */
 	.pricing {
 		display:grid;
-		height:700px;
-		width:auto;
+		height:1400px;
+		width:100%;
 		grid-template:
-		[row1-start]"grid1 grid2 grid3" 30%[row1-end]
-		[row2-start]"grid4 grid5 grid6" 20%[row2-end]
-		[row3-start]"grid7 grid8 grid9" 10%[row3-end]
+		[row1-start]"grid1 grid2 grid3" 35%[row1-end]
+		[row2-start]"grid4 grid5 grid6" 25%[row2-end]
+		[row3-start]"grid7 grid8 grid9" 5%[row3-end]
 		[row4-start]"grid10 grid11 grid12" 20%[row4-end]
-		[row5-start]"grid13 grid14 grid15" 20%[row5-end]
-		/40% 25% 35%;
+		[row5-start]"grid13 grid14 grid15" 15%[row5-end]
+		/40% 30% 30%;
 	}
 	.articleInnovation {
 		display:none;
 	}
 	.pricingTable {
-		width:100%;
 		grid-area:grid1 / grid1 / grid6 / grid6;
 	}	
 	.tableCopyright {
 		grid-area:grid7/ grid7 / grid9 / grid9;
 	}
 	.imagesPricing img {
-		width:100px;
-		height:75px;
+		width:150px;
+		height:150px;
 		margin-left:30%;
 		margin-right:40%;
 	}
 	.imagesPricing {
-		height:auto;
 		grid-area:grid10 / grid10 / grid15 / grid15;
 	}
 	
