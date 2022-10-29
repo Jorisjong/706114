@@ -105,7 +105,7 @@ article {
 	border: double 4px black;
 }
 aside {
-	border: solid 4px black;
+	border: solid 2px black;
 	color: #1b8839;
 	padding: 5px;
 	font-size: 1.5em;
@@ -166,7 +166,7 @@ textarea {
 		width:70%;
 	}
 	.side {
-		width:28%;
+		width:29%;
 	}
 	.footerWrapper {
 		height:5px;
