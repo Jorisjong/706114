@@ -145,7 +145,10 @@ textarea {
 		text-decoration:none;
 		padding: 0.3em;
 	}
-	#hamburgernav label, [type=checkbox], #hamburger{
+	#hamburgerNav label {
+		display: none;
+	}
+	#hamburgerNav [type=checkbox] {
 		display: none;
 	}
 	.headerWrapper {
@@ -166,7 +169,7 @@ textarea {
 		width:70%;
 	}
 	.side {
-		width:29%;
+		width:28.5%;
 	}
 	.footerWrapper {
 		height:5px;
@@ -326,7 +329,10 @@ textarea {
 	text-decoration:none;
 	padding: 0.3em;
 	}
-	#hamburgernav label, #hamburger {
+	#hamburgerNav label {
+		display: none;
+	}
+	#hamburgerNav [type=checkbox] {
 		display: none;
 	}
 	.headerWrapper {
