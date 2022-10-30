@@ -2,4 +2,4 @@ Student name: Joris Jongejans
 Student number: 706114
 Student class: inf1C
 URL student GitHub website: https://jorisjong.github.io/
-URL student Github repository: https://github.com/Jorisjong/706114
+URL student Github repository: https://github.com/Jorisjong/Jorisjong.github.io
