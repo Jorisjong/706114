@@ -515,7 +515,7 @@ textarea {
 }
 
 /*layout for mobile*/
-@media screen and (max-width:482px){
+@media screen and (max-width:500px){
 	body {
 		display:flex;
 		flex-flow:column nowrap;
