@@ -228,8 +228,8 @@ textarea {
 		height:400px;
 	}
 	.imagesProduct img {
-		width: 100%;
-		height: 100%;
+		width: 200px;
+		height: auto;
 		object-fit: cover;
 	}
 	.imageOne {
@@ -243,6 +243,7 @@ textarea {
 	}
 	.imagesProduct {
 		display:grid;
+		height:200px;
 		grid-template:
 		[row1-start]"gridOne gridTwo gridThree"100% [row1-end]
 		/40% 35% 25%;
@@ -344,7 +345,9 @@ textarea {
 		justify-content: center;
 	}
 	.articles img {
-	float:left;
+		width:200px;
+		height:auto;
+		float:left;
 	}
 	figcaption {
 		float:left;
@@ -408,14 +411,18 @@ textarea {
 		height:auto;
 	}
 	.imagesProduct img {
-		width: 100%;
+		width: 200px;
 		height: auto;
 		object-fit: cover;
 	}
 	.imageOne {
+		margin-left:auto;
+		margin-right:auto;
 		grid-area: gridOne;
 	}
 	.imageTwo {
+		margin-left:auto;
+		margin-right:auto;
 		grid-area: gridTwo;
 	}
 	.imageThree {
@@ -553,7 +560,8 @@ textarea {
 		font-size:0.8em;	
 	}
 	.articles img {
-		width:50px;
+		width:120px;
+		height:auto;
 		float:left;
 	}
 	figcaption {
@@ -608,14 +616,11 @@ textarea {
 		/ 50% 50%;
 
 	}
-	.imagesProduct {
-		width:auto;
-		height:750px;
-	}
 	.imagesProduct img {
-		width: 100%;
-		height: 250px;
-		object-fit: cover;
+		height:150px;
+		width:200px;
+		margin-left:25%;
+		margin-right:auto;
 	}
 	.imageOne {
 		grid-area: gridOne;
@@ -627,6 +632,7 @@ textarea {
 		grid-area:gridThree;
 	}
 	.imagesProduct {
+		height:500px;
 		display:grid;
 		grid-template:
 		[row1-start]"gridOne"33% [row1-end]
