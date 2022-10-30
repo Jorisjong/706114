@@ -316,7 +316,7 @@ textarea {
 
 
 /*layout for tablet */
-@media all and (min-width:500px) and (max-width:1279px) {
+@media all and (min-width:482px) and (max-width:1279px) {
 	body {
 		display:flex;
 		flex-flow:column nowrap;
@@ -515,7 +515,7 @@ textarea {
 }
 
 /*layout for mobile*/
-@media screen and (max-width:500px){
+@media screen and (max-width:482px){
 	body {
 		display:flex;
 		flex-flow:column nowrap;
