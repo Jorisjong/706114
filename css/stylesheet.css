@@ -459,6 +459,7 @@ textarea {
 		/50% 25% 25%;
 	}
 	.articleInnovation {
+		font-size:17px;
 		grid-area:grid1 / grid1 / grid3 / grid3;
 	}
 	.pricingTable {
@@ -468,9 +469,11 @@ textarea {
 		grid-area:grid10 / grid10 / grid12 / grid12;
 	}
 	.imagesPricing img {
-		width:20%;
+		width:200px;
 		height:200px;
 		float:left;
+		margin-left:20%;
+		margin-right:auto;
 	}
 	.imageTwoPricing {
 		grid-area: grid13;
