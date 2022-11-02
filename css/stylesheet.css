@@ -394,14 +394,14 @@ textarea {
 	.productWrapper {
 		display:grid;
 		grid-template:
-		[row1-start] "gridEen gridTwee" 20% [row1-end]
-		[row2-start] "gridDrie gridVier" 10% [row2-end]
-		[row3-start] "gridVijf gridZes" 10% [row3-end]
-		[row4-start] "gridZeven gridAcht" 20% [row4-end]
-		[row5-start] "gridNegen gridTien" 10% [row5-end]
-		[row6-start] "gridElf gridTwaalf" 10% [row6-end]
-		[row7-start] "gridDertien gridVeertien" 10% [row7-end]
-		[row8-start] "gridVijftien gridZestien" 10% [row8-end]
+		"gridEen gridTwee" 20%
+		"gridDrie gridVier" 10% 
+		"gridVijf gridZes" 10% 
+		"gridZeven gridAcht" 20%
+		"gridNegen gridTien" 10%
+		"gridElf gridTwaalf" 10%
+		"gridDertien gridVeertien" 10% 
+		"gridVijftien gridZestien" 10% 
 		/ 50% 50%;
 	}
 	
@@ -441,11 +441,11 @@ textarea {
 		height:1300px;
 		width:100%;
 		grid-template:
-		[row1-start]"grid1 grid2 grid3" 20%[row1-end]
-		[row2-start]"grid4 grid5 grid6" 20%[row2-end]
-		[row3-start]"grid7 grid8 grid9" 35%[row3-end]
-		[row4-start]"grid10 grid11 grid12" 5%[row4-end]
-		[row5-start]"grid13 grid14 grid15" 20%[row5-end]
+		"grid1 grid2 grid3" 20%
+		"grid4 grid5 grid6" 20%
+		"grid7 grid8 grid9" 35%
+		"grid10 grid11 grid12" 5%
+		"grid13 grid14 grid15" 20%
 		/50% 25% 25%;
 	}
 	.articleInnovation {
@@ -483,11 +483,11 @@ textarea {
 		height:700px;
 		width:auto;
 		grid-template:
-		[row1-start]"grid1 grid2 grid3" 20%[row1-end]
-		[row2-start]"grid4 grid5 grid6" 20%[row2-end]
-		[row3-start]"grid7 grid8 grid9" 20%[row3-end]
-		[row4-start]"grid10 grid11 grid12" 20%[row4-end]
-		[row5-start]"grid13 grid14 grid15" 20%[row5-end]
+		"grid1 grid2 grid3" 20%
+		"grid4 grid5 grid6" 20%
+		"grid7 grid8 grid9" 20%
+		"grid10 grid11 grid12" 20%
+		"grid13 grid14 grid15" 20%
 		/40% 25% 35%;
 	}
 	.contactWelcome {
@@ -605,14 +605,14 @@ textarea {
 	.productWrapper {
 		display:grid;
 		grid-template:
-		[row1-start] "grid1 grid2" 15% [row1-end]
-		[row2-start] "grid4 grid5" 10% [row2-end]
-		[row3-start] "grid7 grid8" 13% [row3-end]
-		[row4-start] "grid10 grid11" 10% [row4-end]
-		[row5-start] "grid13 grid14" 15% [row5-end]
-		[row6-start] "grid16 grid17" 10% [row6-end]
-		[row7-start] "grid19 grid20" 15% [row7-end]
-		[row8-start] "grid21 grid22" 12% [row8-end]
+		"grid1 grid2" 15% 
+		"grid4 grid5" 10% 
+		"grid7 grid8" 13%
+		"grid10 grid11" 10%
+		"grid13 grid14" 15% 
+		"grid16 grid17" 10%
+		"grid19 grid20" 15%
+		"grid21 grid22" 12%
 		/ 50% 50%;
 
 	}
@@ -635,9 +635,9 @@ textarea {
 		height:500px;
 		display:grid;
 		grid-template:
-		[row1-start]"gridOne"33% [row1-end]
-		[row2-start]"gridTwo"33% [row2-end]
-		[row3-start]"gridThree"33% [row3-end]
+		"gridOne"33% 
+		"gridTwo"33%
+		"gridThree"33%
 		/100%;
 	}
 	
@@ -647,11 +647,11 @@ textarea {
 		height:1400px;
 		width:100%;
 		grid-template:
-		[row1-start]"grid1 grid2 grid3" 35%[row1-end]
-		[row2-start]"grid4 grid5 grid6" 25%[row2-end]
-		[row3-start]"grid7 grid8 grid9" 5%[row3-end]
-		[row4-start]"grid10 grid11 grid12" 20%[row4-end]
-		[row5-start]"grid13 grid14 grid15" 15%[row5-end]
+		"grid1 grid2 grid3" 35%
+		"grid4 grid5 grid6" 25%
+		"grid7 grid8 grid9" 5%
+		"grid10 grid11 grid12" 20%
+		"grid13 grid14 grid15" 15%
 		/40% 30% 30%;
 	}
 	.articleInnovation {
@@ -679,11 +679,11 @@ textarea {
 		height:1100px;
 		width:auto;
 		grid-template:
-		[row1-start]"grid1 grid2 grid3" 20%[row1-end]
-		[row2-start]"grid4 grid5 grid6" 20%[row2-end]
-		[row3-start]"grid7 grid8 grid9" 20%[row3-end]
-		[row4-start]"grid10 grid11 grid12" 20%[row4-end]
-		[row5-start]"grid13 grid14 grid15" 20%[row5-end]
+		"grid1 grid2 grid3" 20%
+		"grid4 grid5 grid6" 20%
+		"grid7 grid8 grid9" 20%
+		"grid10 grid11 grid12" 20%
+		"grid13 grid14 grid15" 20%
 		/40% 25% 35%;
 	}
 	.contactWelcome {
