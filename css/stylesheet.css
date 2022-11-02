@@ -213,13 +213,13 @@ textarea {
 	.productWrapper {
 		display:grid;
 		grid-template:
-		[row1-start] "grid1 grid2 grid3" 10% [row1-end]
-		[row2-start] "grid4 grid5 grid6" 10% [row2-end]
-		[row3-start] "grid7 grid8 grid9" 20% [row3-end]
-		[row4-start] "grid10 grid11 grid12" 20% [row4-end]
-		[row5-start] "grid13 grid14 grid15" 20% [row5-end]
-		[row6-start] "grid16 grid17 grid18" 10% [row6-end]
-		[row7-start] "grid19 grid20 grid21" 10% [row7-end]
+		"grid1 grid2 grid3" 10%
+		"grid4 grid5 grid6" 10%
+		"grid7 grid8 grid9" 20%
+		"grid10 grid11 grid12" 20% 
+		"grid13 grid14 grid15" 20%
+		"grid16 grid17 grid18" 10%
+		"grid19 grid20 grid21" 10% 
 		/ 40% 35% 25%;
 
 	}
@@ -372,36 +372,36 @@ textarea {
 	}
 	.articleOne {
 		font-size:0.8em;
-		grid-area: grid1 / grid1 / grid3 / grid3;
+		grid-area: gridEen / gridEen / gridDrie / gridDrie;
 	}
 	.articleTwo {
-		grid-area:grid2 / grid2 / grid6 / grid6;
+		grid-area:gridTwee / gridTwee / gridZes / gridZes;
 	}
 	.articleThree {
-		grid-area:grid5 / grid5 / grid11 / grid11;
+		grid-area:gridVijf / gridVijf / gridElf / gridElf;
 	}
 	.articleFour {
 		display:none;
 	}
 	.articleFive {
-		grid-area:grid8 / grid8 / grid12 / grid12;
+		grid-area:gridAcht / gridAcht / gridTwaalf / gridTwaalf;
 	}
 	.articleSix {
 		font-size:0.8em;
-		grid-area:grid13 / grid13 / grid16 / grid16;
+		grid-area:gridDertien / gridDertien / gridZestien / gridZestien;
 	}
 	
 	.productWrapper {
 		display:grid;
 		grid-template:
-		[row1-start] "grid1 grid2" 20% [row1-end]
-		[row2-start] "grid3 grid4" 10% [row2-end]
-		[row3-start] "grid5 grid6" 10% [row3-end]
-		[row4-start] "grid7 grid8" 20% [row4-end]
-		[row5-start] "grid9 grid10" 10% [row5-end]
-		[row6-start] "grid11 grid12" 10% [row6-end]
-		[row7-start] "grid13 grid14" 10% [row7-end]
-		[row8-start] "grid15 grid16" 10% [row8-end]
+		[row1-start] "gridEen gridTwee" 20% [row1-end]
+		[row2-start] "gridDrie gridVier" 10% [row2-end]
+		[row3-start] "gridVijf gridZes" 10% [row3-end]
+		[row4-start] "gridZeven gridAcht" 20% [row4-end]
+		[row5-start] "gridNegen gridTien" 10% [row5-end]
+		[row6-start] "gridElf gridTwaalf" 10% [row6-end]
+		[row7-start] "gridDertien gridVeertien" 10% [row7-end]
+		[row8-start] "gridVijftien gridZestien" 10% [row8-end]
 		/ 50% 50%;
 	}
 	
