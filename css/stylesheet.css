@@ -680,7 +680,7 @@ textarea {
 		width:150px;
 		height:150px;
 		margin-left:30%;
-		margin-right:40%;
+		margin-right:30%;
 	}
 	.imagesPricing {
 		grid-area:grid10 / grid10 / grid15 / grid15;
