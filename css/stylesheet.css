@@ -194,18 +194,27 @@ textarea {
 		height:auto;
 	}
 	.articleOne {
+		font-size:18px;
+		line-height:23px;
 		grid-area: grid2 / grid2 / grid14 / grid14;
 	}
 	.articleTwo {
+		font-size:18px;
+		line-height:23px;
 		grid-area:grid1 / grid1 / grid7 / grid7;
 	}
 	.articleThree {
+		font-size:16px;
+		line-height:23px;
 		grid-area:grid3 / grid3 / grid9 / grid9;
 	}
 	.articleFour {
+		word-spacing:2px;
 		grid-area:grid12/ grid12 / grid15 / grid15;
 	}
 	.articleFive {
+		font-size:18px;
+		line-height:23px;
 		grid-area:grid10 / grid10 / grid19 / grid19;
 	}
 	.articleSix {
@@ -400,6 +409,7 @@ textarea {
 	}
 	.articleSix {
 		font-size:0.8em;
+		word-spacing:2px;
 		grid-area:gridDertien / gridDertien / gridZestien / gridZestien;
 	}
 	
