@@ -255,24 +255,24 @@ textarea {
 		height:800px;
 		width:100%;
 		grid-template:
-		[row1-start]"grid1 grid2 grid3" 25%[row1-end]
-		[row2-start]"grid4 grid5 grid6" 30%[row2-end]
-		[row3-start]"grid7 grid8 grid9" 20%[row3-end]
-		[row4-start]"grid10 grid11 grid12" 20%[row4-end]
-		[row5-start]"grid13 grid14 grid15" 5%[row5-end]
+		[row1-start]"gridOne gridTwo gridThree" 25%[row1-end]
+		[row2-start]"gridFour gridFive gridSix" 30%[row2-end]
+		[row3-start]"gridSeven gridEight gridNine" 20%[row3-end]
+		[row4-start]"gridTen gridEleven gridTwelve" 20%[row4-end]
+		[row5-start]"gridDertien gridVeertien gridVijftijn" 5%[row5-end]
 		/40% 25% 35%;
 	}
 	.articleInnovation {
-		grid-area:grid1 / grid1 / grid3 / grid3;
+		grid-area:gridOne / gridOne / gridThree / gridThree;
 	}
 	.pricingTable {
-		grid-area:grid4 / grid4 / grid11 / grid11;
+		grid-area:gridFour / gridFour / gridEleven / gridEleven;
 	}
 	.tableCopyright {
-		grid-area:grid13 / grid13 / grid14 / grid14;
+		grid-area:gridDertien / gridDertien / gridVeertien / gridVeertien;
 	}
 	.imagesPricing {
-		grid-area:grid6 / grid6 / grid12 / grid12;
+		grid-area:gridSix / gridSix / gridTwelve / gridTwelve;
 	}
 	.imagesPricing img {
 		width:auto;
