@@ -51,7 +51,7 @@ table, td {
 	border:dashed 2px #FFFF00;
 }
 table {
-	border:double 5px black;
+	border:double 5px #2E8BC0;
 }
 .headerWrapper {
 	text-align:center;
