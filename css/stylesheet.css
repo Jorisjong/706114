@@ -364,8 +364,18 @@ textarea {
 	}
 	.articles {
 		order:3;
+		display:flex;
+		flex-flow:column nowrap;
 	}
-	
+	.mainArticle1 {
+		order:3;
+	}
+	.mainArticle2 {
+		order:2;
+	}
+	.mainArticle3 {
+		order:1;
+	}
 	/*layout voor product pagina*/
 	.productWrapper {
 		display:grid;
