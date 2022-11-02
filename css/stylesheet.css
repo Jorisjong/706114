@@ -255,11 +255,11 @@ textarea {
 		height:800px;
 		width:100%;
 		grid-template:
-		[row1-start]"gridOne gridTwo gridThree" 25%[row1-end]
-		[row2-start]"gridFour gridFive gridSix" 30%[row2-end]
-		[row3-start]"gridSeven gridEight gridNine" 20%[row3-end]
-		[row4-start]"gridTen gridEleven gridTwelve" 20%[row4-end]
-		[row5-start]"gridDertien gridVeertien gridVijftijn" 5%[row5-end]
+		"gridOne gridTwo gridThree" 25%
+		"gridFour gridFive gridSix" 30%
+		"gridSeven gridEight gridNine" 20%
+		"gridTen gridEleven gridTwelve" 20%
+		"gridDertien gridVeertien gridVijftijn" 5%
 		/40% 25% 35%;
 	}
 	.articleInnovation {
@@ -287,11 +287,11 @@ textarea {
 		height:80%;
 		width:100%;
 		grid-template:
-		[row1-start]"gridOne gridTwo gridThree" 20%[row1-end]
-		[row2-start]"gridFour gridFive gridSix" 20%[row2-end]
-		[row3-start]"gridSeven gridEight gridNine" 20%[row3-end]
-		[row4-start]"gridTen gridEleven gridTwelve" 20%[row4-end]
-		[row5-start]"gridDertien gridVeertien gridVijftien" 20%[row5-end]
+		"gridOne gridTwo gridThree" 20%
+		"gridFour gridFive gridSix" 20%
+		"gridSeven gridEight gridNine" 20%
+		"gridTen gridEleven gridTwelve" 20%
+		"gridDertien gridVeertien gridVijftien" 20%
 		/40% 25% 35%;
 	}
 	.contactWelcome {
