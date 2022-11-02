@@ -101,7 +101,9 @@ article {
 	text-indent:5px;
 	padding:5px;
 	overflow:hidden;
-	border: double 4px black;
+	border-color: black;
+	border-style: double;
+	border-width: 4px;
 }
 aside {
 	border: solid 2px black;
