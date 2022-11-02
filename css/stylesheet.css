@@ -287,20 +287,20 @@ textarea {
 		height:80%;
 		width:100%;
 		grid-template:
-		[row1-start]"grid1 grid2 grid3" 20%[row1-end]
-		[row2-start]"grid4 grid5 grid6" 20%[row2-end]
-		[row3-start]"grid7 grid8 grid9" 20%[row3-end]
-		[row4-start]"grid10 grid11 grid12" 20%[row4-end]
-		[row5-start]"grid13 grid14 grid15" 20%[row5-end]
+		[row1-start]"gridOne gridTwo gridThree" 20%[row1-end]
+		[row2-start]"gridFour gridFive gridSix" 20%[row2-end]
+		[row3-start]"gridSeven gridEight gridNine" 20%[row3-end]
+		[row4-start]"gridTen gridEleven gridTwelve" 20%[row4-end]
+		[row5-start]"gridDertien gridVeertien gridVijftien" 20%[row5-end]
 		/40% 25% 35%;
 	}
 	.contactWelcome {
-		grid-area: grid1/ grid1/ grid3/ grid3;
+		grid-area: gridOne/ gridOne/ gridThree/ gridThree;
 	}
 	.contactForm {
 		margin-top:auto;
 		margin-bottom:auto;
-		grid-area:grid4 / grid4 / grid14 / grid14;
+		grid-area:gridFour / gridFour / gridVeertien / gridVeertien;
 	}
 	.imagesContact img {
 		margin-left:30%;
@@ -310,7 +310,7 @@ textarea {
 	}
 	.imagesContact {
 		height:auto;
-		grid-area:grid6 / grid6 / grid15 / grid15;
+		grid-area:gridSix / gridSix / gridVijftien / gridVijftien;
 	}
 }
 
