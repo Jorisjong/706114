@@ -16,7 +16,7 @@ header {
 	color: #565656;
 }
 #hamburgerNav a#home:active,#hamburgerNav a#product:active,#hamburgerNav a#pricing:active,#hamburgerNav a#contact:active {
-	background-color:#FFC72B;
+	background-color:rgb(137,122,39);
 	color:#000;
 	}
 #hamburgerNav a.active {
